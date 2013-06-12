@@ -25,6 +25,7 @@ int main() {
 
 	while( !done ) {
 
+
 		SDL_Event event;
 		if( SDL_PollEvent( &event ) ) {
 			if( event.type == SDL_QUIT ) {
@@ -32,6 +33,10 @@ int main() {
 			}
 		}
 
+		derp.draw(screen);
+		derp.update();
+
+		SDL_Flip(screen);
 	}
 
 	return 0;

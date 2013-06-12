@@ -16,6 +16,8 @@ class Pixel {
 		void setR( int newr ) { r = newr; };
 		void setG( int newg ) { g = newg; };
 		void setB( int newb ) { b = newb; };
+
+		bool isBlank() { return false; };
 };
 
 

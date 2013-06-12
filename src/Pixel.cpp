@@ -6,6 +6,6 @@ Pixel::Pixel() {
 	cout << "Pixel" << endl;
 
 	r = 0;
-	g = 0;
+	g = 100;
 	b = 0;
 }
